@@ -60,14 +60,16 @@
         "copper_edge_clearance|143950000|94110000|a1b97c50-a423-4a26-9293-76f1e521132f|23e0e388-d19c-4875-a1fe-c7158df6c17f",
         "copper_edge_clearance|147350000|91790000|18a80c62-e238-43d3-95e7-9c04ab1a45f9|0b5a55e2-1d96-4dca-87d4-ec1532d2aca0",
         "copper_edge_clearance|147350000|93290000|18a80c62-e238-43d3-95e7-9c04ab1a45f9|908732be-fff6-4089-93be-48a55c4b6b9e",
-        "copper_edge_clearance|310395000|34845000|6e6c6894-35b3-4dc0-a261-c4c68fff98da|23259cf7-2430-4293-809e-b5d1e0dc1743",
-        "copper_edge_clearance|310600000|36960000|6e6c6894-35b3-4dc0-a261-c4c68fff98da|a23af886-5c45-40b9-b49d-2b30afe89875",
-        "copper_edge_clearance|314000000|34640000|1ccc2918-042e-4404-afd9-ec1e9a2c1e62|33d3515c-4904-49b7-bb6a-422606752f36",
-        "copper_edge_clearance|314000000|36140000|1ccc2918-042e-4404-afd9-ec1e9a2c1e62|dbd89062-fa4a-4e27-ae18-1656abdee1ef",
-        "copper_edge_clearance|43695000|53895000|c9ee0b9c-e4bf-4759-bb26-bb5ba1896736|e9e299f6-3049-43a3-bc29-d368dff13ba6",
-        "copper_edge_clearance|43900000|56010000|c9ee0b9c-e4bf-4759-bb26-bb5ba1896736|55173d13-e7f6-4842-9cfc-3e2f57ff7e9a",
-        "copper_edge_clearance|47300000|53690000|cba52175-28d0-49cc-acb2-1a6678ee927c|377b29fe-7866-40ad-9011-660dd8872207",
-        "copper_edge_clearance|47300000|55190000|cba52175-28d0-49cc-acb2-1a6678ee927c|f6cf73f4-6eee-414f-b2bb-816ff49ae848"
+        "copper_edge_clearance|310395000|34845000|c9ee0b9c-e4bf-4759-bb26-bb5ba1896736|e9e299f6-3049-43a3-bc29-d368dff13ba6",
+        "copper_edge_clearance|310600000|36960000|c9ee0b9c-e4bf-4759-bb26-bb5ba1896736|55173d13-e7f6-4842-9cfc-3e2f57ff7e9a",
+        "copper_edge_clearance|314000000|34640000|cba52175-28d0-49cc-acb2-1a6678ee927c|377b29fe-7866-40ad-9011-660dd8872207",
+        "copper_edge_clearance|314000000|36140000|cba52175-28d0-49cc-acb2-1a6678ee927c|f6cf73f4-6eee-414f-b2bb-816ff49ae848",
+        "copper_edge_clearance|43695000|53895000|6e6c6894-35b3-4dc0-a261-c4c68fff98da|23259cf7-2430-4293-809e-b5d1e0dc1743",
+        "copper_edge_clearance|43900000|56010000|6e6c6894-35b3-4dc0-a261-c4c68fff98da|a23af886-5c45-40b9-b49d-2b30afe89875",
+        "copper_edge_clearance|47300000|53690000|1ccc2918-042e-4404-afd9-ec1e9a2c1e62|33d3515c-4904-49b7-bb6a-422606752f36",
+        "copper_edge_clearance|47300000|55190000|1ccc2918-042e-4404-afd9-ec1e9a2c1e62|dbd89062-fa4a-4e27-ae18-1656abdee1ef",
+        "text_height|295200000|73000000|50c176c8-92f0-4b55-87c3-0f7420394f38|00000000-0000-0000-0000-000000000000",
+        "text_height|295200000|73000000|6753e662-d1cf-4831-ab02-23dbb3c41fa3|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "filename": "board_design_settings.json",
@@ -146,39 +148,39 @@
       "teardrop_options": [
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 5,
+          "td_curve_segcount": 10,
           "td_on_pad_in_zone": false,
           "td_onpadsmd": true,
           "td_onroundshapesonly": false,
-          "td_ontrackend": false,
+          "td_ontrackend": true,
           "td_onviapad": true
         }
       ],
       "teardrop_parameters": [
         {
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 10,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
-          "td_maxheight": 2.0,
-          "td_maxlen": 1.0,
+          "td_maxheight": 10.0,
+          "td_maxlen": 10.0,
           "td_target_name": "td_round_shape",
           "td_width_to_size_filter_ratio": 0.9
         },
         {
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 10,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
-          "td_maxheight": 2.0,
-          "td_maxlen": 1.0,
+          "td_maxheight": 10.0,
+          "td_maxlen": 10.0,
           "td_target_name": "td_rect_shape",
           "td_width_to_size_filter_ratio": 0.9
         },
         {
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 10,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
-          "td_maxheight": 2.0,
-          "td_maxlen": 1.0,
+          "td_maxheight": 10.0,
+          "td_maxlen": 10.0,
           "td_target_name": "td_track_end",
           "td_width_to_size_filter_ratio": 0.9
         }
