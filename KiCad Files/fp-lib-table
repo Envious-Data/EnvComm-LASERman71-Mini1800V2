@@ -9,4 +9,5 @@
   (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/Footprint_Library/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
   (lib (name "Keebio-Parts")(type "KiCad")(uri "${KIPRJMOD}/Footprint_Library/Keebio-Parts.pretty")(options "")(descr ""))
   (lib (name "acheron_Connectors")(type "KiCad")(uri "${KIPRJMOD}/Footprint_Library/acheron_Connectors.pretty")(options "")(descr ""))
+  (lib (name "sk6812mini")(type "KiCad")(uri "${KIPRJMOD}/Footprint_Library/sk6812mini.pretty")(options "")(descr ""))
 )
